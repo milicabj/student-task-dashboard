@@ -5,7 +5,7 @@ import App from "./App";
 
 test("renders dashboard title", () => {
   render(<App />);
-  expect(screen.getByText("Student Task Dashboard")).toBeInTheDocument();
+  expect(screen.getByText("WRONG TITLE")).toBeInTheDocument();
 });
 
 test("adds a new task", () => {
