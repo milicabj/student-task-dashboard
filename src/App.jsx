@@ -5,6 +5,7 @@ function App() {
   const [tasks, setTasks] = useState([
     { id: 1, text: "Prepare CI/CD presentation", completed: true },
     { id: 2, text: "Create GitHub Actions workflow", completed: false },
+    { id: 3, text: "Deploy application", completed: false },
   ]);
 
   const [newTask, setNewTask] = useState("");
