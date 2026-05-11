@@ -16,7 +16,7 @@ beforeEach(() => {
 
 test("renders dashboard title", () => {
   render(<App />);
-  expect(screen.getByText("Student Task Dashboard")).toBeInTheDocument();
+  expect(screen.getByText("Wrong Dashboard Title")).toBeInTheDocument();
 });
 
 test("adds a new task", () => {
